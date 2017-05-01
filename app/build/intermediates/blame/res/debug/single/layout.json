@@ -188,6 +188,10 @@
         "source": "C:\\Users\\Timothy\\.android\\build-cache\\127cc33a8459dd9ec5405bff407b0ae3713e8819\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
+        "merged": "C:\\Users\\Timothy\\Desktop\\GracieCombativesTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment1_layout.xml",
+        "source": "C:\\Users\\Timothy\\Desktop\\GracieCombativesTracker\\app\\src\\main\\res\\layout\\fragment1_layout.xml"
+    },
+    {
         "merged": "C:\\Users\\Timothy\\Desktop\\GracieCombativesTracker\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "C:\\Users\\Timothy\\.android\\build-cache\\1deeec4440d1799d148bf44cebdcf192d557cd05\\output\\res\\layout\\abc_action_mode_bar.xml"
     },

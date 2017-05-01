@@ -1,6 +1,7 @@
 package com.example.timothy.graciecombativestracker2;
 
 import android.net.Uri;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View.OnClickListener;
@@ -14,6 +15,12 @@ import android.widget.ImageView;
 
 
 public class MainPage extends AppCompatActivity {
+
+    private static final String TAG = "MainPage";
+
+    private SectionsPagerAdapter mSectionsPageAdapter;
+
+    private ViewPager mViewPager;
 
     private ProgressBar beltstripe1 = null;
     private ProgressBar beltstripe2 = null;
@@ -94,6 +101,8 @@ public class MainPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_page);
+
+
         findViewById(R.id.c1button1).setOnClickListener(mGlobal_OnClickListener);
         findViewById(R.id.c1button2).setOnClickListener(mGlobal_OnClickListener);
         findViewById(R.id.c2button1).setOnClickListener(mGlobal_OnClickListener);
